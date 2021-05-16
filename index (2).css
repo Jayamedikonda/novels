@@ -1,0 +1,64 @@
+/*.float-container{
+    border:3px solid green;
+    padding:20px;
+    display:inline-block;
+}*/
+.float-child1{
+    
+    background-color:white;
+    overflow:scroll;
+    height: 500px;
+
+    /* width */
+
+    
+    
+}
+
+
+
+
+.float-child1 a{
+    text-decoration: none;
+    padding: 2px 1px 1px 16px;
+    display:block;
+    font-size: large;
+    text-align: center;
+
+
+}
+
+
+
+
+.float-child2 {
+    background-color: yellow;
+    text-align:justify;
+    letter-spacing: 2px;
+    word-spacing:3px;
+    
+    padding:20px;
+    overflow-y:auto;
+    
+    /*margin-left:400px;*/
+    font-style: normal;
+    font-size:large;
+    
+    
+
+    
+}
+.float-child2 .heade{
+    background-color: white;
+    text-align:center;
+    padding:5px;
+    width:20%;
+    margin: auto;
+    
+    
+
+}
+
+
+
+
