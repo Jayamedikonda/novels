@@ -1,4 +1,4 @@
 function my()
 {
-    document.location='chapter.html';
+    document.location='1.html';
 }
