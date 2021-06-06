@@ -18,7 +18,7 @@
 
 
 
-.float-child1 a{
+.dropdown-menu a{
     text-decoration: none;
     padding: 2px 1px 1px 16px;
     display:block;
@@ -31,7 +31,7 @@
 
 
 
-.float-child2 {
+.cont {
     background-color: yellow;
     text-align:justify;
     letter-spacing: 2px;
@@ -48,7 +48,7 @@
 
     
 }
-.float-child2 .heade{
+.heade{
     background-color: white;
     text-align:center;
     padding:5px;
@@ -57,6 +57,24 @@
     
     
 
+}
+.navbar{
+    width:75%;
+    background-color:yellow;
+
+
+}
+.navbar a{
+    text-decoration: none;
+    display:block;
+    padding: 2px 1px 1px 16px;
+    font-size: large;
+    text-align: center;
+    background-color: white;
+
+}
+.pager li{
+    display: inline;
 }
 
 

@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html>
     <head>
-      <meta name="viewport"
-      content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="index (2).css">
+      <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="index (2).css">
     </head>
     <body>
-  <div class="float-container" >
-
-    <div class="float-child1"style="border:2px solid blue; width:20%;float:left" >
+      <div class="navbar">
+        
+      <div class="dropdown">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+          Chapters
+        </button>
+        <div class="dropdown-menu">
+       
       <a href="1.html">Chapter 1</a></br>
       <a href="2.html">Chapter 2</a></br>
       <a href="3.html">Chapter 3</a></br>
@@ -34,15 +43,30 @@
       <a href="23.html">Chapter 23</a></br>
 
       
-
     </div>
-    <div class="float-child2" style="border:2px solid pink; width:75%; float:left;">
-        <div class="heade">
+    </div>
+    <a href="index.html">HOME</a>
+    <div class="dropdown">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      settings
+    </button>
+    <div class="dropdown-menu">
+        
+          <button class="black" onclick="black()">Black</button></br>
+          <button class="white" onclick="white()">White</button>
+        
+        </div>
+        </div>
+      
+    </div>
+      
+    <div class="container" style="border:2px solid pink; width:75%; float:left;">
+  <div class="heade" id="heade">
       <h2>CHAPTER1</h2>
       <h3>He Has Come!</h3>
     </div>
         
-           <p class="cont">
+           <p class="cont" id="cont">
           </br>
           1900 BC, Mansarovar Lake(At the foot of Mount Kailash, Tibet)</br>
           Shiva gazed at the orange sky. The clouds hovering above Mansarovar had just parted</br>
@@ -578,6 +602,16 @@
                </p>
 
             </div>
+            <div class="navbar">
+                
+              <a href="#">Previous</a>
+              <a href="2.html">Next</a>
+            
+           </div> 
+
+            
             </div>
+            
             </body>
+               <script src=novel.js></script>
             </html>
